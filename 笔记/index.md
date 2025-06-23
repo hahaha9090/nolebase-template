@@ -1,17 +1,26 @@
 # 📒 笔记
 
-## 榴莲不进的知识库
+## 小音和猫猫的知识库
 
-欢迎来到榴莲不进的知识库 [琅嬛](https://hahaha9090.netlify.app/)，这里是 📒 笔记分区
+欢迎来到小音和猫猫的知识库 [Nólëbase](https://nolebase.ayaka.io)，这里是 📒 笔记分区
+
+## 想要自己部署和在本地启动强大的 Nólëbase 知识库，或者自己拥有一份？
+
+很高兴你对 [Nólëbase](https://nolebase.ayaka.io) 感兴趣！
 
 ### 背景介绍
 
-本项目是基于 [Nólëbase](https://nolebase.ayaka.io) 精简后的nolebase-template博客模板进行搭建，通过Obsidian完成博客笔记的撰写。在此向Nólëbase 原始创作者[絢香猫](https://github.com/nekomeowww) 和 [絢香音](https://github.com/LittleSound) 表示感谢
+首先 [Nólëbase](https://nolebase.ayaka.io) 是完全可以在本地无网络环境的情况下使用的！你可以在跟随[如何下载到本地](#如何下载到本地)的指引下载或者克隆之后使用 [Obsidian](https://obsidian.md) 和 [Logseq](https://logseq.com/) 这样的知识库软件打开，也可以用 [Typora](https://typora.io/) 这样的 Markdown 编辑器打开进行浏览和编辑，这意味着即便你不具备任何的编程技能，也可以使用或者借鉴我们的知识库分类和组织方法。
 
-### 等等，在实际生活中已经有一些非常成熟的博客平台，为什么还要自己搭建？
+在继续之前，也请容许我介绍一下对项目所使用的技术和架构。
 
-好问题，首先作为一名学习者，应要竖立一个终身学习的心态；作为一名准备扎根于计算机行业的学习者，不断扩展自己的技术栈强化自己的技术能力是一件非常重要的事情。编写一份属于自己的学习笔记、技术文档和记录自己的idea在我看来对于个人能力的成长是一件非常重要的事情。
-在使用了多款诸如飞书、Notion等笔记平台后，选择了成为<Obsidian>(https://obsidian.md) 的用户，对于为什么选择Obsidian不在进描述。Obsidian是一个可以完全本地化的一款笔记软件，在实际使用中发现，电脑不在身边的时候，编写的文档没有办法进行查阅。你可能会知道他们开发团队提供了一套专门用于发布 [Obsidian](https://obsidian.md) 中的笔记的服务「[Obsidian Publish](https://obsidian.md/publish)」，它可以帮助你将 [Obsidian](https://obsidian.md) 中的笔记发布到互联网上帮助你分享和提供搜索引擎优化（SEO）的服务。那为什么不使用呢？[Obsidian Publish](https://obsidian.md/publish) 需要付费才能使用"👀""👀"
+和其他的由 [Hexo](https://hexo.io) 驱动和生成的博客和静态网站类似，[Nólëbase](https://nolebase.ayaka.io) 其实使用了名为 [VitePress](https://vitepress.dev) 的静态生成器来驱动和生成网站，像 [VitePress](https://vitepress.dev) 这样的静态生成器支持在 Markdown 文件中使用 [Vue](https://vuejs.org/) 组件来嵌入并增强文档的阅读和使用体验。而 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 是 [Node.js](https://nodejs.org/en) 生态的一部分，他们都属于「前端技术」的一部分。
+
+在运行和部署上，我们使用免费的 [Netlify](https://www.netlify.com/) 来提供网站的托管，使用 [GitHub Actions](https://github.com/features/actions)（你可以理解一个将会在每次我们将笔记和知识库内容更新到 GitHub 仓库之后会自动触发的一个自动化工作）把我们的笔记和知识库内容自动构建和部署到 [Netlify](https://www.netlify.com/) 上。
+
+### 等等，这和 [Obsidian Publish](https://obsidian.md/publish) 有什么不同
+
+好问题，作为 [Obsidian](https://obsidian.md) 的用户，你可能会知道他们开发团队提供了一套专门用于发布 [Obsidian](https://obsidian.md) 中的笔记的服务「[Obsidian Publish](https://obsidian.md/publish)」，如果你不知道也不要紧，可以把 [Obsidian Publish](https://obsidian.md/publish) 理解为一个可以帮助你将 [Obsidian](https://obsidian.md) 中的笔记发布到互联网上帮助你分享和提供搜索引擎优化（SEO）的服务。
 
 #### 为什么不用 [Obsidian Publish](https://obsidian.md/publish)
 
