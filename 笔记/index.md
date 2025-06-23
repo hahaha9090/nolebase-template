@@ -11,7 +11,7 @@
 ### 等等，在实际生活中已经有一些非常成熟的博客平台，为什么还要自己搭建？
 
 好问题，首先作为一名学习者，应要竖立一个终身学习的心态；作为一名准备扎根于计算机行业的学习者，不断扩展自己的技术栈强化自己的技术能力是一件非常重要的事情。编写一份属于自己的学习笔记、技术文档和记录自己的idea在我看来对于个人能力的成长是一件非常重要的事情。
-在使用了多款诸如飞书、Notion等笔记平台后，选择了成为<Obsidian>(https://obsidian.md) 的用户，对于为什么选择Obsidian不在进描述。Obsidian是一个可以完全本地化的一款笔记软件，在实际使用中发现，电脑不在身边的时候，编写的文档没有办法进行查阅。你可能会知道他们开发团队提供了一套专门用于发布 [Obsidian](https://obsidian.md) 中的笔记的服务「[Obsidian Publish](https://obsidian.md/publish)」，它可以帮助你将 [Obsidian](https://obsidian.md) 中的笔记发布到互联网上帮助你分享和提供搜索引擎优化（SEO）的服务。那为什么不使用呢？[Obsidian Publish](https://obsidian.md/publish) 需要付费才能使用👀👀
+在使用了多款诸如飞书、Notion等笔记平台后，选择了成为<Obsidian>(https://obsidian.md) 的用户，对于为什么选择Obsidian不在进描述。Obsidian是一个可以完全本地化的一款笔记软件，在实际使用中发现，电脑不在身边的时候，编写的文档没有办法进行查阅。你可能会知道他们开发团队提供了一套专门用于发布 [Obsidian](https://obsidian.md) 中的笔记的服务「[Obsidian Publish](https://obsidian.md/publish)」，它可以帮助你将 [Obsidian](https://obsidian.md) 中的笔记发布到互联网上帮助你分享和提供搜索引擎优化（SEO）的服务。那为什么不使用呢？[Obsidian Publish](https://obsidian.md/publish) 需要付费才能使用"👀""👀"
 
 #### 为什么不用 [Obsidian Publish](https://obsidian.md/publish)
 
