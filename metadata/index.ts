@@ -1,6 +1,6 @@
 /** 文本 */
-export const siteName = 'Nólëbase'
-export const siteShortName = 'Nólëbase'
+export const siteName = '琅嬛'
+export const siteShortName = '琅嬛'
 export const siteDescription = '陇上花又开'
 
 /** 文档所在目录 */
